@@ -31,9 +31,9 @@ class CommandRunner {
           print(output.toString());
         }
       }
-    } on Exception catch (exception) {
+    } catch (error) {
       if (onError != null) {
-        onError!(exception);
+        onError!(error);
       } else {
         rethrow;
       }

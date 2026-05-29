@@ -1,0 +1,7 @@
+[2026-05-29 12:02:25.999970 - errors] SEVERE: [Error] Bad state: No element
+#0      List.first (dart:core-patch/growable_array.dart:352:5)
+#1      SearchCommand.run (package:cli/src/commands/search.dart:47:39)
+<asynchronous suspension>
+#2      CommandRunner.run (package:command_runner/src/command_runner_base.dart:27:26)
+<asynchronous suspension>
+ 
